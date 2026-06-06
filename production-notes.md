@@ -22,6 +22,13 @@
 GitHub Pagesは静的ホスティングのため、安全な管理者ログイン、商品登録、画像アップロードの永続保存はできません。
 本番の管理機能を作る場合は、Tencent Cloudなどにバックエンド、DB、認証、画像ストレージを用意してください。
 
+現段階の商品編集は、GitHub Repo内のHTMLと画像ファイルを編集して `main` にpushする運用です。
+
+- トップの商品カード: `index.html`
+- 家電セット詳細: `appliance-set.html`
+- 家具セット詳細: `furniture-set.html`
+- ローカル画像: `assets/`
+
 ## ドメイン設定
 
 GitHub Pagesで `ec.cfsjp.com` を使う場合は、GitHub Pages側にカスタムドメインを設定し、DNSでCNAMEをGitHub Pagesのホストへ向けます。

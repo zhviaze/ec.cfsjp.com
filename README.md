@@ -22,3 +22,14 @@ This repository is prepared for GitHub Pages with:
 - `sitemap.xml`
 
 Admin editing, persistent uploads, accounts, and payments require a backend and are intentionally not included in this static Pages version.
+
+## Product Editing
+
+For the current GitHub Pages version, product updates are made by editing files in this repository:
+
+- `index.html` for top-page product cards
+- `appliance-set.html` for the appliance set detail page
+- `furniture-set.html` for the furniture set detail page
+- `assets/` for local images
+
+After editing, commit and push to `main`; GitHub Pages will publish the update automatically.
